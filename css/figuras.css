@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    background-color: #142559;
+}
+header{
+    background-color: #325CD9;
+    padding: 1.5em;
+    text-align: center;
+}
+header img{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 1em;
+    width: 80px;
+    margin-bottom: 1em;
+}
+.figuras-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    color: white;
+    font-size: 2.5em;
+    letter-spacing: 4px;
+    position: relative;
+}
+.figuras-title::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    bottom: -5px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+header p{
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+.figuras-content{
+    padding: 5em 10em;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-gap: 30px;
+}
+.figuras-item{
+    background: linear-gradient(145deg, #122150, #15285f);
+    border-radius: 10px;
+    padding: 2em 3em;
+    box-shadow:  5px 5px 13px #0d193c,
+             -5px -5px 13px #1b3176;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    position: relative;
+}
+h2::before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+}
+.img-cuadrado{
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-cuadrado img{
+    width: 60%;
+}
+label{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    margin-bottom: .8em;
+}
+input{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #325cd99a;
+    border-radius: 15px;
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding-left: .8em;
+    box-shadow: inset 6px 6px 12px #091027,
+            inset -6px -6px 12px #1f3a8b;
+}
+input::placeholder{
+    color: white;
+}
+.buttons{
+    margin-top: 2em;
+}
+button{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #15285f, #122150);
+    box-shadow:  6px 6px 12px #091027,
+             -6px -6px 12px #1f3a8b;
+    border: none;
+    margin-top: 1.5em;
+    padding: 0 2em;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+#resultado, #resultado-triangulo, #resultado-triangulo-altura, #resultado-circulo{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 2em;
+    background-color: #325CD9;
+    padding: 1.2em;
+    border-radius: 10px;
+}
+.group-inputs{
+    display: flex;
+}
+span{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    margin-top: .5em;
+    display: block;
+}
+.container-div{
+    margin-right: 1em;
+}
